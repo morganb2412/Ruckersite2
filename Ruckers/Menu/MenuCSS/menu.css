@@ -1,0 +1,97 @@
+/*Morgan Brown  
+Student ID: AC1908666
+Lesson Name: Final Graded Project: HTML Coding
+Morganbrown24@outlook.com */
+body{
+    background-image: url("../MenuIMG/menu-closeup.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    min-height: 100%;
+    min-height: 100vh;
+}
+
+nav ul{
+    list-style-type: none;
+    background-color: gray;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: solid white;
+    height: 10%;
+    width: 80%;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-block-start: 40px;
+    margin-left: 10%;
+}
+nav li a{
+    display:inline;
+    color: white;
+    text-align: center;
+    padding:14px 16px; 
+    text-decoration: none;
+    font-weight: bolder;
+}
+nav li{
+    display: block;
+    margin-right: 10px;
+    float:left;
+    
+}
+ #menu{
+     background-color: white;
+     border: 10px outset red;
+     box-shadow: inset grey;
+     color: red;
+     font-family: Arial, Helvetica, sans-serif;
+     text-align: center;
+     margin: 10%;
+     margin-bottom: 13%;
+     margin-right: 10%;
+     width: 60%;
+     float: left;
+     position: relative;
+   
+     
+ }
+ #menu h1{
+     text-decoration: underline;
+ }
+ h2{
+     color:black;
+     text-decoration: overline;
+     text-decoration: underline;
+ }
+ 
+ #salads h2{
+     text-align: center;
+ }
+
+ img{
+     float: left;
+     height: 200px;
+     width: 200px;
+     display:inline;
+     border: 7px outset black;
+     margin-left: 3%;
+ }
+ li{
+     list-style: none;
+     margin-top: 3%;
+ }
+ footer{
+    background-color: grey;
+    color: white;
+    border: solid white;
+    margin-top: 70%;
+}
+footer a{
+    text-decoration: none;
+    color:red;
+    text-align: right;
+}
